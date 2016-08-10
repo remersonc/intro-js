@@ -1,0 +1,88 @@
+* { 
+  font-family: inherit; 
+  box-sizing: border-box; 
+}
+
+body { 
+  margin: 0; 
+  font-family: monospace; 
+}
+
+input, 
+button { 
+  padding: 0.5rem; 
+}
+
+input { 
+  flex: 1 1 auto; 
+  border: 1px solid #ccc; 
+  border-right: none; 
+}
+
+button { 
+  cursor: pointer; 
+  flex-shrink: 0; 
+  border: 1px solid #303030; 
+  color: #fff; 
+  background-color: #303030; 
+}
+
+.tabela { 
+  margin: 3rem auto; 
+  padding: 1rem; 
+  max-width: 18rem; 
+  width: 100%; 
+  background-color: #fafafa; 
+  border: 1px solid #eee; 
+  font-size: 1rem; 
+}
+
+.tabela > p:first-of-type { 
+  margin-top: 0; 
+}
+
+.tabela p:last-of-type { 
+  margin-bottom: 0; 
+}
+
+.tabela span:last-of-type {
+  margin-left: 0.5rem;
+}
+
+.novo { 
+  display: flex; 
+  margin-top: 1rem; 
+}
+
+.novo input {
+  width: 80%;
+}
+
+.remover {
+  margin-top: 0.5rem;
+  width: 100%;
+  background-color: #e44;
+  border-color: #e44;
+}
+
+.controles { 
+  margin: 3rem auto; 
+  max-width: 18rem; 
+  width: 100%; 
+}
+
+.controles input {
+  width: 100%;
+}
+
+.controle {
+  padding: 1rem; 
+  width: 100%; 
+  background-color: #fafafa; 
+  border: 1px solid #eee; 
+  font-size: 1rem; 
+}
+
+.controle + .controle {
+  margin-top: 1rem;
+}

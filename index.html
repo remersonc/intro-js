@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Introdução ao Javascript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="tabela">
+      <p>
+        <span><input type="checkbox" class="todos"></span><span><strong>Personagens</strong></span>
+      </p>
+      <div class="lista"></div>
+      <form action="" class="novo">
+        <input type="text" placeholder="Novo personagem">
+        <button type="submit">Adicionar</button>
+      </form>
+      <button class="remover">Remover selecionados</button>
+    </div>
+
+    <div class="controles">
+      <div class="controle">
+        <div><strong>Padding:</strong> <span>16</span>px</div>
+        <input type="range" class="controle-padding" min="16" max="48" value="16">
+      </div>
+      <div class="controle">
+        <div><strong>Largura:</strong> <span>288</span>px</div>
+        <input type="range" class="controle-width" min="288" max="720" value="288">
+      </div>
+      <div class="controle">
+        <div><strong>Opacidade:</strong> <span>100</span>%</div>
+        <input type="range" class="controle-opacity" min="0" max="100" value="100">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
